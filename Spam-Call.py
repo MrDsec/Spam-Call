@@ -1,8 +1,8 @@
 import os,sys,time,requests,re,json,random
 def baner():
     os.system("clear")
+    os.system("figlet Spam-Call")
     print ("""
-\t\033[1;97m figlet SPAM CALL
 \033[1;37m[\033[1;31m•\033[1;37m]Author:\033[1;37m\033[1;36mMrDseC
 \033[1;37m[\033[1;31m•\033[1;37m]Github :\033[1;37m\033[1;36mhttps://github.com/MrDsec/Spam-Call\033[00m
 \033[90m___________________________________""")
