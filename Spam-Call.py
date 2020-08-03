@@ -3,10 +3,11 @@ def baner():
     os.system("clear")
     os.system("figlet Spam-Call")
     print ("""
-\033[90m=============================================
-\033[1;37m[\033[1;31m•\033[1;37m]Author:\033[1;37m\033[1;36mMrDseC
+\033[90m================================================
+\033[1;37m[\033[1;31m•\033[1;37m]Author :\033[1;37m\033[1;36mMrDseC
 \033[1;37m[\033[1;31m•\033[1;37m]Github :\033[1;37m\033[1;36mhttps://github.com/MrDsec/Spam-Call\033[00m
-\033[90m=============================================""")
+\033[1;37m[\033[1;31m•\033[1;37m]Youtube:\033[1;37m\033[1;36mMrD seC
+\033[90m================================================""")
 def countdownTimer(start_minute, start_second):
     total_second = start_minute * 60 + start_second
     while total_second:
